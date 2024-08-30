@@ -1,0 +1,22 @@
+@import url(/style.css);
+
+.grid-explicita{
+  display: grid;
+  grid-template-rows:200px 1fr;
+  grid-template-columns: 60px 1fr;
+  grid-template-areas:
+  "header header"
+  "sidebar content";
+}
+.header{
+  grid-area: header;
+  background-color: brown;
+}
+.sidebar{
+  grid-area: sidebar;
+  background-color: skyblue;
+}
+.content{ 
+  grid-area: content;
+  background-color: purple;
+}
