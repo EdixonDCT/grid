@@ -3,6 +3,10 @@
   padding: 0;
   box-sizing: border-box;
 }
+body
+{
+  background-color: rgb(192, 182, 170);
+}
 .container{
   margin: 0 auto;
   width: 80%;
@@ -11,8 +15,11 @@
   border: solid 1px black;
 }
 .item{
+  display: flex;
+  justify-content: center;
+  align-items: center;
   padding: 1rem;
-  font-size: 1.25rem;
-  background: #747373;
+  font-size: 40px;
+  background: #685454;
   border: solid 1px white;
 }
