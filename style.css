@@ -1,25 +1,22 @@
+@import url(grid.css);
+
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-body
-{
-  background-color: rgb(192, 182, 170);
-}
-.container{
+
+.contenedor{
   margin: 0 auto;
-  width: 80%;
-  height: 80vh;
-  background-color: black;
+  background-color: rgb(0, 0, 0);
   border: solid 1px black;
+  height: 750px;
+  width: 1250px;
 }
+
 .item{
-  display: flex;
-  justify-content: center;
-  align-items: center;
   padding: 1rem;
-  font-size: 40px;
-  background: #685454;
-  border: solid 1px white;
+  font-size: 1.25rem;
+  background-color: #a8a8a8;
+  border: solid 1px #888;
 }

@@ -1,0 +1,22 @@
+@import url(style.css);
+
+.grid-anidado{
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    grid-template-rows: repeat(3,auto);
+}
+/* .item:nth-child(5) grid anidada
+{ 
+  display: grid;
+  grid-template-columns: repeat(2,auto);
+  grid-template-rows: repeat(2,auto);
+} */
+.subgrid{
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    grid-template-rows: repeat(3,auto);
+    grid-row: 2 / 2 ;
+    grid-column: 1/ 4;
+    grid-template-rows: subgrid;
+    grid-template-columns: subgrid;
+}

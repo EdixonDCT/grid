@@ -1,0 +1,19 @@
+@import url(style.css);
+.grid-alineamiento{
+  display: grid;
+  grid-template-columns: repeat(3,300px);
+  grid-template-rows: repeat(2,300px);
+  justify-content: center;
+}
+.item{
+  height: 200px;
+  width: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.item:nth-child(5){
+  background-color: brown;
+  color: aliceblue;
+  align-self: self-end;
+}
